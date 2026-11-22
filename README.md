@@ -4,7 +4,7 @@ The Date Library Project is a collection of useful functions designed to simplif
 # clsDate – Date Library Functions
 
 - SetDay() / GetDay() – Sets or gets the day.
--SetMonth() / GetMonth() – Sets or gets the month.
+- SetMonth() / GetMonth() – Sets or gets the month.
 - SetYear() / GetYear() – Sets or gets the year.
 - IsLeapYear() – Checks whether a year is a leap year.
 - NumberOfDaysInMonth() – Returns the number of days in a month.
