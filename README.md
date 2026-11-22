@@ -67,3 +67,9 @@ The Date Library Project is a collection of useful functions designed to simplif
 - CompareDates() – Compares two dates and returns Before, Equal, or After.
 - CalculateAgeFromDate() – Calculates the number of days from a given date until today.
 - Print() – Prints the date.
+
+# clsPeriod – Period Library Functions
+- clsPeriod() – Creates a period using a start date and an end date.
+- IsOverlapPeriods() – Checks whether two date periods overlap.
+- IsOverLapWith() – Checks whether the current period overlaps with another period.
+- Print() – Prints the start date and end date of the perio
