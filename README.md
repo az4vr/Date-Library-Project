@@ -1,103 +1,69 @@
-#  clsDate - C++ Date Library
+# Date-Library-Project
+The Date Library Project is a collection of useful functions designed to simplify date management and provide an easy way to work with dates, perform date calculations, and manipulate calendar information.
 
-`clsDate` is a C++ library designed to simplify working with dates. It provides a collection of functions for creating, validating, comparing, manipulating, and calculating dates.
+# clsDate – Date Library Functions
 
-The library also supports calendar generation, leap year calculations, business day calculations, and vacation management.
-
-##  Features & Functions
-
-### 1. Constructors
-- `clsDate()` - Creates an object using the current system date.
-- `clsDate(string Date)` - Creates a date from a string.
-- `clsDate(short Day, short Month, short Year)` - Creates a date using day, month, and year.
-- `clsDate(short Days, short Year)` - Creates a date using the day number and year.
-
-### 2. Getters & Setters
-- `SetDay()` / `GetDay()` - Set or get the day.
-- `SetMonth()` / `GetMonth()` - Set or get the month.
-- `SetYear()` / `GetYear()` - Set or get the year.
-
-### 3. Date Validation
-- `IsLeapYear()` - Checks whether a year is a leap year.
-- `NumberOfDaysInMonth()` - Returns the number of days in a month.
-- `IsValid()` - Checks whether a date is valid.
-
-### 4. Date Information
-- `GetNumberOfDay()` - Returns the day of the week.
-- `NameOfMonth()` - Returns the name of a month.
-- `GetSystemDate()` - Returns the current system date.
-- `NumberOfDaysInYear()` - Returns the number of days in a year.
-- `DaysFromTheBeginingOfTheYear()` - Returns the number of days from the beginning of the year.
-- `NumberOfUntilDaysToEndWeek()` - Returns the remaining days until the end of the week.
-- `NumberOfUntilDaysToEndMonth()` - Returns the remaining days until the end of the month.
-- `NumberOfUntilDaysToEndYear()` - Returns the remaining days until the end of the year.
-
-### 5. Calendar
-- `MonthCalender()` - Displays a monthly calendar.
-- `YearCalender()` - Displays a yearly calendar.
-
-### 6. Date Conversion & Calculation
-- `ConvertDaysToDate()` - Converts a day number into a date.
-- `OrderOfDateUsingDays()` - Gets the date corresponding to a day number.
-- `ConvertDateToDays()` - Calculates the number of days from a given date until today.
-- `CalculateAgeFromDate()` - Calculates the number of days from a given date until today.
-- `GetDeffirentDays()` - Calculates the difference in days between two dates.
-
-### 7. Date Comparison
-- `IsDate1BeforDate2()` - Checks whether the first date is before the second.
-- `IsDate1AfterDate2()` - Checks whether the first date is after the second.
-- `IsDate1EqualDate2()` - Checks whether two dates are equal.
-- `CompareDates()` - Compares two dates and returns Before, Equal, or After.
-
-### 8. Increasing Dates
-- `AddDays()` - Adds a number of days to a date.
-- `AddOneDay()` - Adds one day.
-- `IncreaseDateByOneDay()` - Returns the next date.
-- `IncreaseDateOneWeek()` - Adds one week.
-- `IncreaseDateXweek()` - Adds multiple weeks.
-- `IncreaseOneMonth()` - Adds one month.
-- `IncreaseXmonth()` - Adds multiple months.
-- `IncreaseXdays()` - Adds multiple days.
-- `IncreaseOneYear()` - Adds one year.
-- `IncreaseXyear()` - Adds multiple years.
-- `IncreaseOneDecade()` - Adds ten years.
-- `IncreaseXdecade()` - Adds multiple decades.
-- `IncreaseOneCentury()` - Adds one hundred years.
-- `IncreaseOneMillennium()` - Adds one thousand years.
-
-### 9. Decreasing Dates
-- `DecreaseDateOneDay()` - Subtracts one day.
-- `DecreaseDateOneWeek()` - Subtracts one week.
-- `DecreaseDateXweek()` - Subtracts multiple weeks.
-- `DecreaseDateOneMonth()` - Subtracts one month.
-- `DecreaseDateXmonth()` - Subtracts multiple months.
-- `DecreaseDateXday()` - Subtracts multiple days.
-- `DecreaseOneYear()` - Subtracts one year.
-- `DecreaseXyear()` - Subtracts multiple years.
-- `DecreaseOneDecade()` - Subtracts ten years.
-- `DecreaseXdecade()` - Subtracts multiple decades.
-- `DecreaseOneCentury()` - Subtracts one hundred years.
-- `DecreaseOneMillennium()` - Subtracts one thousand years.
-
-### 10. Business & Vacation
-- `IsLastDayInMonth()` - Checks whether a date is the last day of its month.
-- `IsLastMonthInYear()` - Checks whether a month is December.
-- `IsEndOfWeek()` - Checks whether a date is at the end of the week.
-- `IsBusinessDay()` - Checks whether a date is a business day.
-- `CalculateBusinessDay()` - Calculates the number of business days between two dates.
-- `CalculateVacationDay()` - Calculates vacation days between two dates.
-- `CalculateVacationReturnDate()` - Calculates the vacation return date.
-
-### 11. Utility
-- `Print()` - Prints the date.
-- `SwapTowDates()` - Swaps two date objects.
-
-
-
-## 🎯 Purpose
-
-This library was developed as a C++ programming practice project to demonstrate Object-Oriented Programming concepts and provide reusable functions for date management and calculations.
-
-## 👨‍💻 Author
-
-Developed as a C++ programming practice project.
+- SetDay() / GetDay() – Sets or gets the day.
+-SetMonth() / GetMonth() – Sets or gets the month.
+- SetYear() / GetYear() – Sets or gets the year.
+- IsLeapYear() – Checks whether a year is a leap year.
+- NumberOfDaysInMonth() – Returns the number of days in a month.
+- IsValid() – Checks whether a date is valid.
+- ConvertDaysToDate() – Converts a day number into a date.
+- GetNumberOfDay() – Returns the day of the week.
+- NameOfMonth() – Returns the name of a month.
+- MonthCalender() – Displays a monthly calendar
+- YearCalender() – Displays a yearly calendar.
+- GetSystemDate() – Returns the current system date.
+- NumberOfDaysInYear() – Returns the number of days in a year.
+- NumberOfHoursInMonth() – Returns the number of hours in a month.
+- NumberOfHoursInYear() – Returns the number of hours in a year.
+- NumberOfMinutesInMonth() – Returns the number of minutes in a month.
+- NumberOfMinutesInYear() – Returns the number of minutes in a year.
+- NumberOfSecondsInMonth() – Returns the number of seconds in a month.
+- NumberOfSecondsInYear() – Returns the number of seconds in a year.
+- DaysFromTheBeginingOfTheYear() – Returns the number of days from the beginning of the year.
+- OrderOfDateUsingDays() – Gets the date corresponding to a day number.
+- AddDays() – Adds a number of days to a date.
+- IsLastDayInMonth() – Checks whether a date is the last day of its month.
+- IsLastMonthInYear() – Checks whether a month is December.
+- AddOneDay() – Adds one day to a date.
+- SwapTowDates() – Swaps two date objects.
+- IncreaseDateByOneDay() – Returns the next date.
+- ConvertDateToDays() – Calculates the number of days from a given date until today.
+- GetDeffirentDays() – Calculates the difference in days between two dates.
+- IncreaseDateOneWeek() – Adds one week to a date
+- IncreaseDateXweek() – Adds multiple weeks to a date.
+- IncreaseOneMonth() – Adds one month to a date.
+- IncreaseXmonth() – Adds multiple months to a date.
+- IncreaseXdays() – Adds multiple days to a date.
+- IncreaseOneYear() – Adds one year to a date.
+- IncreaseXyear() – Adds multiple years to a date.
+- IncreaseOneDecade() – Adds ten years to a date.
+- IncreaseXdecade() – Adds multiple decades to a date.
+- IncreaseOneCentury() – Adds one hundred years to a date.
+- IncreaseOneMillennium() – Adds one thousand years to a date.
+- DecreaseDateOneDay() – Subtracts one day from a date.
+- DecreaseDateOneWeek() – Subtracts one week from a date.
+- DecreaseDateXweek() – Subtracts multiple weeks from a date.
+- DecreaseDateOneMonth() – Subtracts one month from a date.
+- DecreaseDateXmonth() – Subtracts multiple months from a date.
+- DecreaseDateXday() – Subtracts multiple days from a date.
+- DecreaseOneYear() – Subtracts one year from a date.
+- DecreaseXyear() – Subtracts multiple years from a date.
+- DecreaseOneDecade() – Subtracts ten years from a date.
+- DecreaseXdecade() – Subtracts multiple decades from a date.
+- DecreaseOneCentury() – Subtracts one hundred years from a date.
+- DecreaseOneMillennium() – Subtracts one thousand years from a date.
+- IsEndOfWeek() – Checks whether a date is at the end of the week.
+- IsBusinessDay() – Checks whether a date is a business day.
+- NumberOfUntilDaysToEndWeek() – Returns the remaining days until the end of the week.
+- NumberOfUntilDaysToEndMonth() – Returns the remaining days until the end of the month.
+- NumberOfUntilDaysToEndYear() – Returns the remaining days until the end of the year.
+- CalculateBusinessDay() – Calculates the number of business days between two dates.
+- CalculateVacationDay() – Calculates vacation days between two dates.
+- CalculateVacationReturnDate() – Calculates the vacation return date.
+- IsDate1AfterDate2() – Checks whether the first date is after the second date.
+- CompareDates() – Compares two dates and returns Before, Equal, or After.
+- CalculateAgeFromDate() – Calculates the number of days from a given date until today.
+- Print() – Prints the date.
